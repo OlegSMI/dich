@@ -1,2 +1,2 @@
-install java for UML
-install PlantUML in VSCode
+#install java for UML
+#install PlantUML in VSCode
