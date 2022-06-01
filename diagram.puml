@@ -1,0 +1,38 @@
+@startuml "MyDiagram"
+
+
+class GraphGet {
+    Goin: Integer
+}
+
+
+
+
+
+class ListNeig {
+
+}
+
+class MatrNeig {
+
+}
+
+class RibsEdit {
+    Boin: Mass
+
+}
+
+class NodesEdit {
+
+}
+
+GraphGet --|> RibsEdit
+GraphGet --|> NodesEdit
+
+NodesEdit --|> ListNeig
+RibsEdit --|> ListNeig
+
+NodesEdit --|> MatrNeig
+RibsEdit --|> MatrNeig
+
+@enduml
